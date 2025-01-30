@@ -54,9 +54,13 @@ Una vez insertados los datos, se pueden escribir diversas consultas SQL para exp
 
 ### 🔹 Consultas Fáciles
 1.Recuperar los nombres de todas las pistas con más de 1,000 millones de reproducciones.
+
 2.Listar todos los álbumes junto con sus respectivos artistas.
+
 3.Obtener el total de comentarios en pistas donde licensed = TRUE.
+
 4.Encontrar todas las pistas que pertenecen a álbumes de tipo sencillo.
+
 5.Contar el número total de pistas por cada artista.
 ### 🔹 Consultas de Nivel Medio
 6.Calcular el promedio de danceabilidad de las pistas en cada álbum.
