@@ -1,11 +1,8 @@
 # Proyecto Avanzado de SQL en Spotify y Optimización de Consultas
-## Categoría del Proyecto:Avanzado 
-dataset
 
 ## 🎵 Logo de Spotify 🎵
 
 ## 📌 ##Descripción General
-
 Este proyecto implica el análisis de un conjunto de datos de Spotify con diversos atributos sobre pistas, álbumes y artistas utilizando SQL. Se abarca todo el proceso, desde la normalización de un conjunto de datos desnormalizado hasta la ejecución de consultas SQL de diferentes niveles de complejidad (fácil, medio y avanzado) y la optimización del rendimiento de las consultas.
 
 ### Los principales objetivos del proyecto son:
@@ -15,7 +12,6 @@ Este proyecto implica el análisis de un conjunto de datos de Spotify con divers
 ✔️ Extraer información valiosa del conjunto de datos.
 
 ### 📊 Creación de la Tabla
-
 ```sql
 DROP TABLE IF EXISTS spotify;
 CREATE TABLE spotify (
@@ -44,6 +40,8 @@ CREATE TABLE spotify (
     energy_liveness FLOAT,
     most_played_on VARCHAR(50)
 );
+```
+
 ## 🔍 Pasos del Proyecto
 ### 1️⃣ Exploración de Datos
 Antes de comenzar con SQL, es importante comprender el conjunto de datos. Algunos de los atributos principales son:
@@ -90,7 +88,7 @@ Una vez insertados los datos, se pueden escribir diversas consultas SQL para exp
 
 13.Usar WITH para calcular la diferencia entre los valores de energía más alto y más bajo en cada álbum.
 
-
+```sql
 WITH cte AS (
     SELECT 
         album,
@@ -104,6 +102,7 @@ SELECT
     highest_energy - lowest_energy AS energy_diff
 FROM cte
 ORDER BY energy_diff DESC;
+```
 
 Encontrar las pistas donde la relación entre energía y liveness es mayor a 1.2.
 Calcular la suma acumulativa de "me gusta" de las pistas, ordenadas por el número de vistas, usando funciones de ventana.
