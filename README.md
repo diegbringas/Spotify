@@ -5,6 +5,7 @@ dataset
 ## 🎵 Logo de Spotify 🎵
 
 ## 📌 ##Descripción General
+
 Este proyecto implica el análisis de un conjunto de datos de Spotify con diversos atributos sobre pistas, álbumes y artistas utilizando SQL. Se abarca todo el proceso, desde la normalización de un conjunto de datos desnormalizado hasta la ejecución de consultas SQL de diferentes niveles de complejidad (fácil, medio y avanzado) y la optimización del rendimiento de las consultas.
 
 ### Los principales objetivos del proyecto son:
@@ -15,6 +16,7 @@ Este proyecto implica el análisis de un conjunto de datos de Spotify con divers
 
 ### 📊 Creación de la Tabla
 
+```sql
 DROP TABLE IF EXISTS spotify;
 CREATE TABLE spotify (
     artist VARCHAR(255),
