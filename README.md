@@ -1,17 +1,17 @@
-#Proyecto Avanzado de SQL en Spotify y Optimización de Consultas
-##Categoría del Proyecto:Avanzado 
+# Proyecto Avanzado de SQL en Spotify y Optimización de Consultas
+## Categoría del Proyecto:Avanzado 
 dataset
 
-🎵 Logo de Spotify 🎵
+## 🎵 Logo de Spotify 🎵
 
-📌 ##Descripción General
+## 📌 ##Descripción General
 Este proyecto implica el análisis de un conjunto de datos de Spotify con diversos atributos sobre pistas, álbumes y artistas utilizando SQL. Se abarca todo el proceso, desde la normalización de un conjunto de datos desnormalizado hasta la ejecución de consultas SQL de diferentes niveles de complejidad (fácil, medio y avanzado) y la optimización del rendimiento de las consultas.
 
-Los principales objetivos del proyecto son:
+### Los principales objetivos del proyecto son:
 ✔️ Practicar habilidades avanzadas en SQL.
 ✔️ Extraer información valiosa del conjunto de datos.
 
-📊 Creación de la Tabla
+### 📊 Creación de la Tabla
 sql
 Copiar
 DROP TABLE IF EXISTS spotify;
@@ -41,7 +41,7 @@ CREATE TABLE spotify (
     energy_liveness FLOAT,
     most_played_on VARCHAR(50)
 );
-🔍 Pasos del Proyecto
+## 🔍 Pasos del Proyecto
 1️⃣ Exploración de Datos
 Antes de comenzar con SQL, es importante comprender el conjunto de datos. Algunos de los atributos principales son:
 ✔️ Artista: Nombre del intérprete de la pista.
@@ -53,19 +53,19 @@ Antes de comenzar con SQL, es importante comprender el conjunto de datos. Alguno
 2️⃣ Consultas SQL
 Una vez insertados los datos, se pueden escribir diversas consultas SQL para explorar y analizar la información. Estas consultas se dividen en tres niveles:
 
-🔹 Consultas Fáciles
+### 🔹 Consultas Fáciles
 Recuperar los nombres de todas las pistas con más de 1,000 millones de reproducciones.
 Listar todos los álbumes junto con sus respectivos artistas.
 Obtener el total de comentarios en pistas donde licensed = TRUE.
 Encontrar todas las pistas que pertenecen a álbumes de tipo sencillo.
 Contar el número total de pistas por cada artista.
-🔹 Consultas de Nivel Medio
+### 🔹 Consultas de Nivel Medio
 Calcular el promedio de danceabilidad de las pistas en cada álbum.
 Encontrar las 5 pistas con los valores más altos de energía.
 Listar todas las pistas con sus vistas y "me gusta" donde official_video = TRUE.
 Para cada álbum, calcular el total de vistas de todas sus canciones.
 Recuperar los nombres de las pistas que han sido más reproducidas en Spotify que en YouTube.
-🔹 Consultas Avanzadas
+### 🔹 Consultas Avanzadas
 Encontrar las 3 pistas más vistas por cada artista usando funciones de ventana.
 Escribir una consulta para encontrar las pistas donde la puntuación de liveness es superior al promedio.
 Usar WITH para calcular la diferencia entre los valores de energía más alto y más bajo en cada álbum.
