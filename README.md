@@ -8,7 +8,9 @@ dataset
 Este proyecto implica el análisis de un conjunto de datos de Spotify con diversos atributos sobre pistas, álbumes y artistas utilizando SQL. Se abarca todo el proceso, desde la normalización de un conjunto de datos desnormalizado hasta la ejecución de consultas SQL de diferentes niveles de complejidad (fácil, medio y avanzado) y la optimización del rendimiento de las consultas.
 
 ### Los principales objetivos del proyecto son:
+
 ✔️ Practicar habilidades avanzadas en SQL.
+
 ✔️ Extraer información valiosa del conjunto de datos.
 
 ### 📊 Creación de la Tabla
@@ -43,10 +45,15 @@ CREATE TABLE spotify (
 ## 🔍 Pasos del Proyecto
 ### 1️⃣ Exploración de Datos
 Antes de comenzar con SQL, es importante comprender el conjunto de datos. Algunos de los atributos principales son:
+
 ✔️ Artista: Nombre del intérprete de la pista.
+
 ✔️ Pista: Nombre de la canción.
+
 ✔️ Álbum: Álbum al que pertenece la canción.
+
 ✔️ Tipo de Álbum: Categoría del álbum (Ej. sencillo o álbum).
+
 ✔️ Métricas: Danceabilidad, energía, volumen, tempo, entre otras.
 
 ### 2️⃣ Consultas SQL
@@ -64,14 +71,23 @@ Una vez insertados los datos, se pueden escribir diversas consultas SQL para exp
 5.Contar el número total de pistas por cada artista.
 ### 🔹 Consultas de Nivel Medio
 6.Calcular el promedio de danceabilidad de las pistas en cada álbum.
+
 7.Encontrar las 5 pistas con los valores más altos de energía.
+
 8.Listar todas las pistas con sus vistas y "me gusta" donde official_video = TRUE.
+
 9.Para cada álbum, calcular el total de vistas de todas sus canciones.
+
 10.Recuperar los nombres de las pistas que han sido más reproducidas en Spotify que en YouTube.
+
 ### 🔹 Consultas Avanzadas
+
 11.Encontrar las 3 pistas más vistas por cada artista usando funciones de ventana.
+
 12.Escribir una consulta para encontrar las pistas donde la puntuación de liveness es superior al promedio.
+
 13.Usar WITH para calcular la diferencia entre los valores de energía más alto y más bajo en cada álbum.
+
 
 WITH cte AS (
     SELECT 
