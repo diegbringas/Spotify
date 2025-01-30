@@ -1,10 +1,10 @@
-Proyecto Avanzado de SQL en Spotify y Optimización de Consultas
-Categoría del Proyecto:
-Avanzado | [Haz clic aquí para obtener el conjunto de datos]
+#Proyecto Avanzado de SQL en Spotify y Optimización de Consultas
+##Categoría del Proyecto:Avanzado 
+dataset
 
 🎵 Logo de Spotify 🎵
 
-📌 Descripción General
+📌 ##Descripción General
 Este proyecto implica el análisis de un conjunto de datos de Spotify con diversos atributos sobre pistas, álbumes y artistas utilizando SQL. Se abarca todo el proceso, desde la normalización de un conjunto de datos desnormalizado hasta la ejecución de consultas SQL de diferentes niveles de complejidad (fácil, medio y avanzado) y la optimización del rendimiento de las consultas.
 
 Los principales objetivos del proyecto son:
